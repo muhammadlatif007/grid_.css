@@ -1,0 +1,1 @@
+ctrl + ' open/close terminal

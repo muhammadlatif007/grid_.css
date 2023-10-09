@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header, .footer{
+height: 100px;
+background-color: blue;
+color: white;
+}
+.wrapper{
+  display: flex;
+  height: 100%;
+}
+.navbar, .sidebar{
+  width: 200px;
+  background-color: deepskyblue;
+  color: white;
+}
+.content{
+  flex-grow: 1;
+  background-color: gray;
+}
